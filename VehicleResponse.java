@@ -19,7 +19,7 @@ public class VehicleResponse implements Serializable{
         this.numberOfDoors = numberOfDoors;
 
         this.options = options;
-        //message to represent contents of vehicle response
+        
         message = request.message +
                 " This vehicle has " + milesOnVehicle +
                 " miles, cost $" + price +
