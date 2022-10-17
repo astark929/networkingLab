@@ -12,7 +12,6 @@ public class VehicleRequest implements Serializable{
         this.make = make;
         this.model = model;
 
-        //message to represent contents of vehicle request
         message = "You requested a " + year + " " + make + " " + model + ".";
     }
 
