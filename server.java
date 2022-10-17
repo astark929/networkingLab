@@ -26,7 +26,7 @@ public class server {
             int cost = (int) ((Math.random()*10000)+1000);
             int miles = (int) ((Math.random()*10000)-100);
 
-            VehicleResponse vehicleResponse = new VehicleResponse(request, miles, cost, 2, 2, new String[]{"Manual Trans", "Leather Seats","plastic leather","nylon", "polyester"});
+            VehicleResponse vehicleResponse = new VehicleResponse(request, miles, cost, 2, 2, new String[]{"leather seats","plastic leather seats","nylon seats", "polyester seats"});
             outStream.writeObject(vehicleResponse);
 
             outStream.flush();
