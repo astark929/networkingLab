@@ -28,52 +28,5 @@ public class VehicleResponse implements Serializable{
                 " doors, and includes these options: " + Arrays.toString(options) + ".";
     }
 
-    public VehicleRequest getRequest(){
-        return request;
-    }
-
-    public int getMilesOnVehicle(){
-        return milesOnVehicle;
-    }
-
-    public int getPrice(){
-        return price;
-    }
-
-    public int getNumberOfSeats() {
-        return numberOfSeats;
-    }
-
-    public int getNumberOfDoors() {
-        return numberOfDoors;
-    }
-
-    public String[] getOptions() {
-        return options;
-    }
-
-    public void setRequest(VehicleRequest request) {
-        this.request = request;
-    }
-
-    public void setMilesOnVehicle(int milesOnVehicle) {
-        this.milesOnVehicle = milesOnVehicle;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
-    public void setNumberOfSeats(int numberOfSeats) {
-        this.numberOfSeats = numberOfSeats;
-    }
-
-    public void setNumberOfDoors(int numberOfDoors) {
-        this.numberOfDoors = numberOfDoors;
-    }
-
-    public void setOptions(String[] options) {
-        this.options = options;
-    }
 }
 
