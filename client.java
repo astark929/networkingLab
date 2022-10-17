@@ -29,17 +29,17 @@ public class client {
             if (userChoice == 1) {
                 vehicleRequest = new VehicleRequest(2022, "honda", "Civic Type R");
             }
-            if (userChoice == 2) {
+            else if (userChoice == 2) {
                 vehicleRequest = new VehicleRequest(2022, "tesla", "S");
             }
-            if (userChoice == 3) {
+            else if (userChoice == 3) {
                 vehicleRequest = new VehicleRequest(2022, "BMW", "Isetta");
 
             }
-            if (userChoice == 4) {
+            else if (userChoice == 4) {
                 vehicleRequest = new VehicleRequest(2022, "audi", "hatchback");
             }
-            if (userChoice == 5) {
+            else if (userChoice == 5) {
                 vehicleRequest = new VehicleRequest(2022, "volkswagen", "jetta GL");
             }
             else {
